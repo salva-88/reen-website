@@ -82,6 +82,16 @@ nav ul{
     padding: 21px;
 }
 /* content */
+.ident{
+    margin-bottom: 10px;
+}
+/* .col-md-6 p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 10px;
+} */
 #content{
     background-color: rgba(243, 244, 248, 1);
     padding-top: 4px;
@@ -166,14 +176,28 @@ footer button{
 footer .button{
     background-color: grey;
     border-radius: 10px;
+    width: 100%;
 }
 footer input{
     border: none;
     color: white;
     background-color: rgba(79, 92, 110, 1);
     border-radius: 5px;
+    width: 100%;
+    outline: none;
 
 }
+.ftr-contact {
+    align-items: center;
+    display: flex;
+    gap: 5px;
+}
+.ftr-contact img {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+}
+
 
 /* ftr-sctn */
 .ftr-bottom{
