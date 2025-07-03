@@ -6,6 +6,8 @@
     <title>Document</title>
     <link rel="stylesheet" href="bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="responsive.css">
 </head>
 <body>
     <header>
@@ -24,12 +26,12 @@
                     </div>
                 
                     <div class="social-icons">
-                        <a href="#"><img src="img/facebook.png" alt=""></a>
-                        <a href="#"><img src="img/google-plus.png" alt=""></a>
-                        <a href="#"><img src="img/twitter.png" alt=""></a>
-                        <a href="#"><img src="img/logo-pinterest.png" alt=""></a>
-                        <a href="#"><img src="img/behance.png" alt=""></a>
-                        <a href="#"><img src="img/basketball.png" alt=""></a>
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-google-plus-g"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-pinterest"></i>
+                        <i class="fa-brands fa-behance"></i>
+                        <i class="fa-solid fa-basketball"></i>
                     </div>
                 </div>
             </div>
@@ -40,18 +42,30 @@
                 <div class="header2-cnt">
                   <div class="header-logo">
                       <img src="img/REEN..png" alt="">
-                  </div>           
-                  <nav>
-                      <ul>  
-                          <li><a href="PORTFOLIO.html">PORTFOLIO</a></li>
-                          <li><a href="BLOG.html">BLOG</a></li>
-                          <li><a href="PAGES.html">PAGES</a></li>
-                          <li><a href="FEATURES.html">FEATURES</a></li>
-                          <li><a href="MEGAMENU.html">MEGAMENU</a></li>
-                          <li><a href="CONTACT.html">CONTACT</a></li>
-                      </ul>
-                  </nav>
-                  <a href="#"><img src="img/search.png" alt=""></a>
+                  </div> 
+                  <div>          
+                      <nav>
+                          <ul>  
+                              <li><a href="PORTFOLIO.html">PORTFOLIO</a></li>
+                              <li><a href="BLOG.html">BLOG</a></li>
+                              <li><a href="PAGES.html">PAGES</a></li>
+                              <li><a href="FEATURES.html">FEATURES</a></li>
+                              <li><a href="MEGAMENU.html">MEGAMENU</a></li>
+                              <li><a href="CONTACT.html">CONTACT</a></li>
+                          </ul>
+                      </nav>
+                  </div>
+                  <div class="header-icons">
+                     <a class="header-cta" href="">
+                       <i class="fa-solid fa-magnifying-glass"></i>
+                     </a>
+                     <div class="toggle-bt">
+                          <div></div>
+                          <div></div>
+                          <div></div>
+                      </div>
+                 </div>
+                  
                 </div>
             </div>
         </div>
@@ -181,7 +195,7 @@
             <div class="container">
                 <div>
                     <div class="row">
-                        <div class="col-3">
+                        <div class="col-sm-3">
                            <h6>WHO WE ARE</h6>
                            <h1>REEN.</h1>
                            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
@@ -193,27 +207,27 @@
                               <img src="img/Group 6.png" alt="">
                             </div>
                         </div>
-                        <div class="col-3">
+                        <div class="col-sm-3">
                             <h6>LATEST WORKS</h6>
-                            <div class="row">
-                                <div class="col-sm-6 p-1">
+                            <div class="row g">
+                                <div class=" col-6 p-1">
                                     <img src="img/motel.png" width="100%" alt="">
                                 </div>
-                                <div class="col-sm-6 p-1">
+                                <div class=" col-6 p-1">
                                     <img src="img/cmpt.png" width="100%" alt="">
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="col-sm-6 p-1">
+                                <div class=" col-6 p-1">
                                     <img src="img/signwall.png" width="100%" alt="">
                                 </div>
-                                <div class="col-sm-6 p-1">
+                                <div class=" col-6 p-1">
                                     <img src="img/signwall.png" width="100%" alt="">
                                 </div>
                                 
                             </div>
                         </div>
-                        <div class="col-3">
+                        <div class="col-sm-3">
                             <h6>GET IN TOUCH</h6>
                             <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                               Id itaque nam pariatur eaque veniam voluptatibus vero.
@@ -231,7 +245,7 @@
                                 <span>info@mail.com</span>
                             </div>
                         </div>
-                        <div class="col-3">
+                        <div class="col-sm-3">
                             <h6>FREE UPDATES</h6>
                             <p>Lorem ipsum is simply dummy text of the printing and.</p>
                             <div class=" button d-flex">
@@ -287,7 +301,9 @@
 
 
 
-
+    
+    <script src="jquery-3.7.1.min.js"></script>
+    <script src="script.js"></script>
     <script src="bootstrap.min.js"></script>
 </body>
 </html>

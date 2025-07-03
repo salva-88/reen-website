@@ -26,6 +26,11 @@ a{
     text-decoration: none;
     color: rgb(94, 106, 153);
 }
+ul{
+    padding: 0 !important;
+    margin: 0 !important;
+    list-style: none !important;
+}
 
 nav ul{
     display: flex;
@@ -34,6 +39,43 @@ nav ul{
     list-style: none;
     padding-top: 10px;
 }
+.social-icons i{
+    color: rgba(75, 83, 115, 1);
+   padding: 5px;
+}
+.toggle-bt{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+.toggle-bt div{
+    position: relative;
+    transition: 0.3s;
+    height: 3px;
+    width: 27px;
+    background: black;
+}
+.toggle-bt.toggled div:nth-child(1){
+    transform: rotate(45deg);
+    top: 10px;
+}
+.toggle-bt.toggled div:nth-child(2){
+    transform: translateX(100vw);
+    opacity: 0;
+}
+.toggle-bt.toggled div:nth-child(3){
+    transform: rotate(-45deg);
+    bottom: 6px;
+}
+
+
+
+.header-icons{
+    display: flex;
+    gap: 9px;
+}
+
 /* hero */
 #hero{
     background-image: url(img/banner-reen\ 1.png);
@@ -41,6 +83,13 @@ nav ul{
 }
 #hero p{
     text-align: center;
+}
+#hero {
+    background-image: url(img/banner-reen\ 1.png);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .hero-ctnt{
     color: white;
@@ -56,10 +105,15 @@ nav ul{
     color: white;
     align-items: cent;
 }
-#hero .container {
+.start-btn:hover{
+    color: black;
+    background-color: rgb(74, 184, 158);
+    transition: 0.5s;
+}
+/* #hero .container {
     padding-top: 203px;
     padding-left: 122px;
-}
+} */
 /* hero2 */
 .passion-cnt {
     padding-top: 25px;

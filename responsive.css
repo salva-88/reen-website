@@ -1,0 +1,86 @@
+@media screen and (max-width:1299px) {
+    
+}
+@media screen and (max-width:1024px) {
+    
+}
+@media screen and (max-width:992px) {
+    nav ul {
+    gap: 19px;
+}
+    .header-logo img {
+    width: 150px;
+}
+    
+}
+@media screen and (max-width:767px) {
+    header nav ul{
+        display: none;
+    }
+    .header-2 nav ul{
+        display: flex;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background: grey;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        transition: 0.3s;
+        opacity: 0;
+    }
+    .header-2 nav ul.toggled{
+        opacity: 1;
+        left: 0;
+
+    }
+    #hero{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .toggle-bt{
+        display: flex;
+        z-index: 100;
+    }
+    .mobile-nav{
+        display: block;
+    }
+    
+    
+}
+@media screen and (max-width:575px) {
+    
+}
+@media screen and (max-width:425px) {
+    
+}
+@media screen and (max-width:375px) {
+    .hero-ctnt h1{
+        display: flex;
+        align-items: center;
+    }
+    .hero-ctnt p{
+        display: flex;
+        align-items: center;
+        position: relative;
+        right: 42px;
+    }
+    .ftr-contact{
+        display: flex;
+        align-items: center;
+    }
+    .start-btn{
+        display: flex;
+        align-items: center;
+        position: relative;
+        right: 41px;
+    }
+
+    
+}
+
+
+    
